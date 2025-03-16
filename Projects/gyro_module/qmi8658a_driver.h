@@ -19,8 +19,8 @@
 #include "app.h"
 #include "SEGGER_RTT.h"
 #include "py32f002b_ll_tim.h"
-#include "../i2c_module/i2c_driver.h"
-#include "../gyro_module/imualgo_axis9.h"
+#include "i2c_driver.h"
+#include "imualgo_axis9.h"
 
 #if (GYROSCOPE_ENABLE)
 /*============================================================================*

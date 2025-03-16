@@ -3,7 +3,7 @@
 int main(void)
 {
   user_init();
-	rtt_printf("--->>> \r\n");
+
   while (1)
   {
     main_loop();

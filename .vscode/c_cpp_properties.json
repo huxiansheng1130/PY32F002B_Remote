@@ -12,20 +12,14 @@
                 "${workspaceFolder}/Drivers/PY32F002B_LL_Driver/Inc",
                 "${workspaceFolder}/Drivers/PY32F002B_LL_Driver/Src",
                 "${workspaceFolder}/Projects",
-                "${workspaceFolder}/Projects/flash_module",
-                "${workspaceFolder}/Projects/function_module",
-                "${workspaceFolder}/Projects/gyro_module",
-                "${workspaceFolder}/Projects/i2c_module",
-                "${workspaceFolder}/Projects/keyboard_module",
-                "${workspaceFolder}/Projects/led_module",
-                "${workspaceFolder}/Projects/ntc_module",
-                "${workspaceFolder}/Projects/power_module",
-                "${workspaceFolder}/Projects/rf_433_module"
+                "${workspaceFolder}/Projects/*_module/**"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
+                "_UNICODE",
+                "USE_FULL_LL_DRIVER",
+                "PY32F002Bx5"
             ],
             "compilerPath": "gcc.exe",
             "cStandard": "c11",

@@ -1,925 +1,0 @@
-Dependencies for Project 'Project', Target 'PY32F002Bx5_Project': (DO NOT MODIFY !)
-CompilerVersion: 6190000::V6.19::ARMCLANG
-F (..\Projects\flash_module\flash_handle.c)(0x67D2A2DA)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/flash_handle.o -MD)
-I (..\Projects\flash_module\..\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-F (..\Projects\function_module\function_handle.c)(0x67D3A808)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/function_handle.o -MD)
-I (..\Projects\function_module\..\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-F (..\Projects\gyro_module\qmi8658a_driver.c)(0x67D6841E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/qmi8658a_driver.o -MD)
-I (..\Projects\gyro_module\..\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-F (..\Projects\gyro_module\qmi8658a_handle.c)(0x67D663F6)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/qmi8658a_handle.o -MD)
-F (..\Projects\i2c_module\i2c_driver.c)(0x67D2A2DA)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/i2c_driver.o -MD)
-I (..\Projects\i2c_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-F (..\Projects\keyboard_module\keyboard_driver.c)(0x67D687D4)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/keyboard_driver.o -MD)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-F (..\Projects\keyboard_module\keyboard_handle.c)(0x67D69831)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/keyboard_handle.o -MD)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-F (..\Projects\led_module\led_driver.c)(0x67D65D4D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/led_driver.o -MD)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-F (..\Projects\ntc_module\ntc_driver.c)(0x67D2A2DA)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/ntc_driver.o -MD)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-F (..\Projects\ntc_module\ntc_handle.c)(0x67D2A2DA)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/ntc_handle.o -MD)
-I (..\Projects\ntc_module\..\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-F (..\Projects\power_module\power_driver.c)(0x67D68B48)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/power_driver.o -MD)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-F (..\Projects\rf_433_module\433_protocol.c)(0x67D3A6E0)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/433_protocol.o -MD)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Projects\rf_433_module\433_protocol.h)(0x67D2A2DA)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-F (..\Projects\rf_433_module\433_send_driver.c)(0x67D68A31)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/433_send_driver.o -MD)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\string.h)(0x637AECBC)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-I (..\Projects\rf_433_module\433_protocol.h)(0x67D2A2DA)
-F (..\Projects\app.c)(0x67D3CE88)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/app.o -MD)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-F (..\Projects\main.c)(0x67D53006)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/main.o -MD)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-F (.\startup_py32f002bxx.s)(0x66B3597E)(--cpu Cortex-M0+ -g --pd "__MICROLIB SETA 1" --diag_suppress=A1950W-IE:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include--pd "__UVISION_VERSION SETA 538"--list .\listings\startup_py32f002bxx.lst--xref -o .\objects\startup_py32f002bxx.o--depend .\objects\startup_py32f002bxx.d)
-F (..\Drivers\CMSIS\Device\PY32F002B\Source\py32f002b_it.c)(0x67D67722)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_it.o -MD)
-I (..\Projects\main.h)(0x67D6A31C)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (..\Projects\keyboard_module\keyboard_handle.h)(0x67D687C9)
-I (..\Projects\keyboard_module\keyboard_driver.h)(0x67D687BE)
-I (..\Projects\keyboard_module\keyboard_config.h)(0x67D687DF)
-I (..\Projects\function_module\function_handle.h)(0x67D2AF53)
-I (..\Projects\flash_module\flash_handle.h)(0x67D2CE46)
-I (..\Projects\power_module\power_driver.h)(0x67D68B54)
-I (..\Projects\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (..\Projects\ntc_module\ntc_handle.h)(0x67D2AF2C)
-I (..\Projects\ntc_module\..\ntc_module\ntc_driver.h)(0x67D2AF28)
-I (..\Projects\led_module\led_driver.h)(0x67D2AF26)
-I (..\Projects\gyro_module\qmi8658a_driver.h)(0x67D677B5)
-I (..\Projects\gyro_module\..\i2c_module\i2c_driver.h)(0x67D2AF19)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (..\Projects\gyro_module\..\gyro_module\imualgo_axis9.h)(0x67D2AF0F)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-I (..\Projects\rf_433_module\433_send_driver.h)(0x67D2BA90)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdbool.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Device\PY32F002B\Include\py32f002b_it.h)(0x67D2A2DA)
-F (..\Drivers\CMSIS\Device\PY32F002B\Source\system_py32f002b.c)(0x670CCEEE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/system_py32f002b.o -MD)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-F (..\Drivers\PY32F002B_LL_BSP\Src\py32f002b_bsp_clock.c)(0x67D2B5AE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_bsp_clock.o -MD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-F (..\Drivers\PY32F002B_LL_BSP\Src\py32f002b_bsp_printf.c)(0x67D3A2B0)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_bsp_printf.o -MD)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\errno.h)(0x637AECBA)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h)(0x67D2B5D2)
-I (..\Projects\app.h)(0x67D699BD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h)(0x67D2A2DA)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_cortex.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-F (..\Drivers\PY32F002B_LL_BSP\Src\SEGGER_RTT.c)(0x67D65479)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/segger_rtt.o -MD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\string.h)(0x637AECBC)
-F (..\Drivers\PY32F002B_LL_BSP\Src\SEGGER_RTT_printf.c)(0x67D65AD5)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/segger_rtt_printf.o -MD)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h)(0x67D681B7)
-I (..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h)(0x67CF8EBB)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdlib.h)(0x637AECBC)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdarg.h)(0x637AECBC)
-F (..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_adc.c)(0x67D2A2DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_adc.o -MD)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h)(0x67D2A2DC)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-F (..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_comp.c)(0x67D2A2DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_comp.o -MD)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_comp.h)(0x67D2A2DC)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-F (..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_crc.c)(0x67D2A2DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_crc.o -MD)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_crc.h)(0x67D2A2DC)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-F (..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_exti.c)(0x67D2A2DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_exti.o -MD)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h)(0x67D2A2DC)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-F (..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_flash.c)(0x67D2A2DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_flash.o -MD)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_flash.h)(0x67D2A2DC)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-F (..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_gpio.c)(0x67D2A2DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_gpio.o -MD)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h)(0x67D2A2DC)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-F (..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_i2c.c)(0x67D2A2DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_i2c.o -MD)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h)(0x67D2B692)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-F (..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_lptim.c)(0x67D2A2DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_lptim.o -MD)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_lptim.h)(0x67D2A2DC)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-F (..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_pwr.c)(0x67D2A2DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_pwr.o -MD)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h)(0x67D2A2DC)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-F (..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_rcc.c)(0x67D2A2DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_rcc.o -MD)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-F (..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_spi.c)(0x67D2A2DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_spi.o -MD)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_spi.h)(0x67D2A2DC)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-F (..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_tim.c)(0x67D2A2DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_tim.o -MD)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h)(0x67D2A2DC)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-F (..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_usart.c)(0x67D2A2DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_usart.o -MD)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h)(0x67D2A2DC)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_bus.h)(0x67D2A2DC)
-F (..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_utils.c)(0x67D2A2DC)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/CMSIS/Include -I ../Drivers/CMSIS/Device/PY32F002B/Include -I ../Drivers/PY32F002B_LL_BSP/Inc -I ../Drivers/PY32F002B_LL_Driver/Inc -I ../Projects/keyboard_module -I ../Projects/function_module -I ../Projects/gyro_module -I ../Projects/i2c_module -I ../Projects/keyboard_module -I ../Projects/led_module -I ../Projects/ntc_module -I ../Projects/power_module -I ../Projects/rf_433_module -I ../Projects/flash_module -I ../Projects -I ../Drivers-IE:/1.software/57.puya_keil/packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-D__UVISION_VERSION="538" -DPY32F002Bx5 -DUSE_FULL_LL_DRIVER-o ./objects/py32f002b_ll_utils.o -MD)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h)(0x67D2A2DC)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h)(0x6720B000)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h)(0x65F7F85A)
-I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\ARM\ARMCLANG\include\stdint.h)(0x637AECBC)
-I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\cmsis_armcc_V6.h)(0x66B3597A)
-I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x66B3597A)
-I (E:\1.software\57.puya_keil\packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x65FAB1C0)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h)(0x67D6A31B)
-I (..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_system.h)(0x67D2A2DC)
-F (..\Projects\gyro_module\imualgo_axis9.lib)(0x67D2A2DA)()

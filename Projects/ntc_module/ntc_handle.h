@@ -18,7 +18,7 @@
 #include "main.h"
 #include "app.h"
 #include "py32f002b_ll_adc.h"
-#include "../ntc_module/ntc_driver.h"
+#include "ntc_driver.h"
 
 /*============================================================================*
  *                        Export Global Variables

@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>PY32F002Bx5,USE_FULL_LL_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Drivers\CMSIS\Include;..\Drivers\CMSIS\Device\PY32F002B\Include;..\Drivers\PY32F002B_LL_BSP\Inc;..\Drivers\PY32F002B_LL_Driver\Inc;..\Projects\keyboard_module;..\Projects\function_module;..\Projects\gyro_module;..\Projects\i2c_module;..\Projects\keyboard_module;..\Projects\led_module;..\Projects\ntc_module;..\Projects\power_module;..\Projects\rf_433_module;..\Projects\flash_module;..\Projects;..\Drivers</IncludePath>
+              <IncludePath>..\Projects;..\Drivers\CMSIS\Include;..\Drivers\CMSIS\Device\PY32F002B\Include;..\Drivers\PY32F002B_LL_BSP\Inc;..\Drivers\PY32F002B_LL_Driver\Inc;..\Projects\drivers\i2c_module;..\Projects\keyboard_module;..\Projects\function_module;..\Projects\gyro_module;..\Projects\i2c_module;..\Projects\keyboard_module;..\Projects\led_module;..\Projects\ntc_module;..\Projects\power_module;..\Projects\rf_433_module;..\Projects\flash_module</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -405,11 +405,6 @@
               <FilePath>..\Projects\gyro_module\qmi8658a_handle.c</FilePath>
             </File>
             <File>
-              <FileName>i2c_driver.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Projects\i2c_module\i2c_driver.c</FilePath>
-            </File>
-            <File>
               <FileName>keyboard_driver.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Projects\keyboard_module\keyboard_driver.c</FilePath>
@@ -458,6 +453,11 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Projects\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c_driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Projects\drivers\i2c_module\i2c_driver.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -21,13 +21,13 @@
 *                               Function enable
 *============================================================================*/
 #define DEBUG_ENABLED                         0
-#define	UI_KEYBOARD_ENABLE						        1
+#define	UI_KEYBOARD_ENABLE					  1
 #define NTC_SMAPLING_ENABLE	                  0
-#define LOW_POWER_ENABLE	                    0
+#define LOW_POWER_ENABLE	                  0
 #define LED_FUNCTION_ENABLE	                  1
 #define UI_RF_ENABLE                          1
-#define FLASH_ID_READ_ENABLE	                1
-#define GYROSCOPE_ENABLE	                    1
+#define FLASH_ID_READ_ENABLE	              1
+#define GYROSCOPE_ENABLE	                  1
 #define GEOMAGNERISM_ENABLE	                  0
 
 /*============================================================================*

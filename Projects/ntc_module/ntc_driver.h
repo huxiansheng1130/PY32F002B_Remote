@@ -18,7 +18,7 @@
 #include "main.h"
 #include "app.h"
 #include "py32f002b_ll_adc.h"
-#include "ntc_module/ntc_handle.h"
+#include "ntc_handle.h"
 
 #if (NTC_SMAPLING_ENABLE)
 /*============================================================================*

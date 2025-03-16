@@ -41,22 +41,21 @@ extern "C" {
 #include "py32f002b_ll_exti.h"
 #include "py32f002b_bsp_clock.h"
 #include "py32f002b_bsp_printf.h"
-#include "py32f002b_ll_tim.h"
 #include "SEGGER_RTT.h"
 
 /* GCC common typedef -----------------------------------------------------------*/
 #include "app.h"
 
 /* Private typedef -----------------------------------------------------------*/
-#include "../keyboard_module/keyboard_handle.h"
-#include "../keyboard_module/keyboard_driver.h"
-#include "../function_module/function_handle.h"
-#include "../flash_module/flash_handle.h"
-#include "../power_module/power_driver.h"
-#include "../ntc_module/ntc_driver.h"
-#include "../led_module/led_driver.h"
-#include "../gyro_module/qmi8658a_driver.h"
-#include "../rf_433_module/433_send_driver.h"
+#include "keyboard_handle.h"
+#include "keyboard_driver.h"
+#include "function_handle.h"
+#include "flash_handle.h"
+#include "power_driver.h"
+#include "ntc_driver.h"
+#include "led_driver.h"
+#include "qmi8658a_driver.h"
+#include "433_send_driver.h"
 
 
 #if defined(USE_FULL_ASSERT)

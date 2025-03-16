@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\Project.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\Project.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6190004: Last Updated: Sun Mar 16 14:37:51 2025
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6190004: Last Updated: Sun Mar 16 17:04:20 2025
 <BR><P>
 <H3>Maximum Stack Usage =        328 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -11,8 +11,12 @@ main &rArr; main_loop &rArr; qmi8658a_loop &rArr; rtt_printf &rArr; SEGGER_RTT_v
 <P>
 <H3>
 Mutually Recursive functions
-</H3> <LI><a href="#[b]">ADC_COMP_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[b]">ADC_COMP_IRQHandler</a><BR>
+</H3> <LI><a href="#[1]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1]">NMI_Handler</a><BR>
  <LI><a href="#[2]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[2]">HardFault_Handler</a><BR>
+ <LI><a href="#[3]">SVC_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[3]">SVC_Handler</a><BR>
+ <LI><a href="#[4]">PendSV_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4]">PendSV_Handler</a><BR>
+ <LI><a href="#[5]">SysTick_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[5]">SysTick_Handler</a><BR>
+ <LI><a href="#[b]">ADC_COMP_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[b]">ADC_COMP_IRQHandler</a><BR>
 </UL>
 <P>
 <H3>
@@ -24,16 +28,16 @@ Function Pointers
  <LI><a href="#[a]">EXTI4_15_IRQHandler</a> from startup_py32f002bxx.o(.text) referenced from startup_py32f002bxx.o(RESET)
  <LI><a href="#[6]">FLASH_IRQHandler</a> from startup_py32f002bxx.o(.text) referenced from startup_py32f002bxx.o(RESET)
  <LI><a href="#[1b]">Filter_Apply</a> from imualgo_axis9.o(.text.Filter_Apply) referenced from qmi8658a_driver.o(.text.qmi8658a_data_process)
- <LI><a href="#[2]">HardFault_Handler</a> from py32f002b_it.o(.text.HardFault_Handler) referenced from startup_py32f002bxx.o(RESET)
+ <LI><a href="#[2]">HardFault_Handler</a> from startup_py32f002bxx.o(.text) referenced from startup_py32f002bxx.o(RESET)
  <LI><a href="#[10]">I2C1_IRQHandler</a> from startup_py32f002bxx.o(.text) referenced from startup_py32f002bxx.o(RESET)
  <LI><a href="#[e]">LPTIM1_IRQHandler</a> from startup_py32f002bxx.o(.text) referenced from startup_py32f002bxx.o(RESET)
- <LI><a href="#[1]">NMI_Handler</a> from py32f002b_it.o(.text.NMI_Handler) referenced from startup_py32f002bxx.o(RESET)
- <LI><a href="#[4]">PendSV_Handler</a> from py32f002b_it.o(.text.PendSV_Handler) referenced from startup_py32f002bxx.o(RESET)
+ <LI><a href="#[1]">NMI_Handler</a> from startup_py32f002bxx.o(.text) referenced from startup_py32f002bxx.o(RESET)
+ <LI><a href="#[4]">PendSV_Handler</a> from startup_py32f002bxx.o(.text) referenced from startup_py32f002bxx.o(RESET)
  <LI><a href="#[7]">RCC_IRQHandler</a> from startup_py32f002bxx.o(.text) referenced from startup_py32f002bxx.o(RESET)
  <LI><a href="#[0]">Reset_Handler</a> from startup_py32f002bxx.o(.text) referenced from startup_py32f002bxx.o(RESET)
  <LI><a href="#[11]">SPI1_IRQHandler</a> from startup_py32f002bxx.o(.text) referenced from startup_py32f002bxx.o(RESET)
- <LI><a href="#[3]">SVC_Handler</a> from py32f002b_it.o(.text.SVC_Handler) referenced from startup_py32f002bxx.o(RESET)
- <LI><a href="#[5]">SysTick_Handler</a> from py32f002b_it.o(.text.SysTick_Handler) referenced from startup_py32f002bxx.o(RESET)
+ <LI><a href="#[3]">SVC_Handler</a> from startup_py32f002bxx.o(.text) referenced from startup_py32f002bxx.o(RESET)
+ <LI><a href="#[5]">SysTick_Handler</a> from startup_py32f002bxx.o(.text) referenced from startup_py32f002bxx.o(RESET)
  <LI><a href="#[14]">SystemInit</a> from system_py32f002b.o(.text.SystemInit) referenced from startup_py32f002bxx.o(.text)
  <LI><a href="#[f]">TIM14_IRQHandler</a> from qmi8658a_driver.o(.text.TIM14_IRQHandler) referenced from startup_py32f002bxx.o(RESET)
  <LI><a href="#[c]">TIM1_BRK_UP_TRG_COM_IRQHandler</a> from 433_send_driver.o(.text.TIM1_BRK_UP_TRG_COM_IRQHandler) referenced from startup_py32f002bxx.o(RESET)
@@ -80,6 +84,41 @@ Global Symbols
 <P><STRONG><a name="[9d]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
 
 <P><STRONG><a name="[0]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_py32f002bxx.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f002bxx.o(RESET)
+</UL>
+<P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_py32f002bxx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f002bxx.o(RESET)
+</UL>
+<P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_py32f002bxx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f002bxx.o(RESET)
+</UL>
+<P><STRONG><a name="[3]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_py32f002bxx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f002bxx.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_py32f002bxx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_py32f002bxx.o(RESET)
+</UL>
+<P><STRONG><a name="[5]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_py32f002bxx.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_py32f002bxx.o(RESET)
 </UL>
 <P><STRONG><a name="[b]"></a>ADC_COMP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_py32f002bxx.o(.text))
@@ -152,9 +191,9 @@ Global Symbols
 
 <P><STRONG><a name="[49]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_DoInit
-<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_send
-<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_driver_init
 <LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qmi8658a_tim_config
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_driver_init
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_send
 </UL>
 
 <P><STRONG><a name="[a2]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
@@ -411,13 +450,6 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> qmi8658a_driver.o(.text.qmi8658a_data_process)
 </UL>
-<P><STRONG><a name="[2]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, py32f002b_it.o(.text.HardFault_Handler))
-<BR><BR>[Calls]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
-</UL>
-<BR>[Called By]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
-</UL>
-<BR>[Address Reference Count : 1]<UL><LI> startup_py32f002bxx.o(RESET)
-</UL>
 <P><STRONG><a name="[57]"></a>LL_EXTI_Init</STRONG> (Thumb, 156 bytes, Stack size 0 bytes, py32f002b_ll_exti.o(.text.LL_EXTI_Init))
 <BR><BR>[Called By]<UL><LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kb_wakeup_exti_config
 </UL>
@@ -460,16 +492,10 @@ Global Symbols
 <P><STRONG><a name="[76]"></a>LL_TIM_Init</STRONG> (Thumb, 72 bytes, Stack size 16 bytes, py32f002b_ll_tim.o(.text.LL_TIM_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = LL_TIM_Init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_driver_init
-<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qmi8658a_tim_config
+<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qmi8658a_tim_config
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_driver_init
 </UL>
 
-<P><STRONG><a name="[1]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, py32f002b_it.o(.text.NMI_Handler))
-<BR>[Address Reference Count : 1]<UL><LI> startup_py32f002bxx.o(RESET)
-</UL>
-<P><STRONG><a name="[4]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, py32f002b_it.o(.text.PendSV_Handler))
-<BR>[Address Reference Count : 1]<UL><LI> startup_py32f002bxx.o(RESET)
-</UL>
 <P><STRONG><a name="[3b]"></a>RCC_GetSystemClockFreq</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, py32f002b_ll_rcc.o(.text.RCC_GetSystemClockFreq))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = RCC_GetSystemClockFreq
 </UL>
@@ -509,12 +535,6 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtt_printf
 </UL>
 
-<P><STRONG><a name="[3]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, py32f002b_it.o(.text.SVC_Handler))
-<BR>[Address Reference Count : 1]<UL><LI> startup_py32f002bxx.o(RESET)
-</UL>
-<P><STRONG><a name="[5]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, py32f002b_it.o(.text.SysTick_Handler))
-<BR>[Address Reference Count : 1]<UL><LI> startup_py32f002bxx.o(RESET)
-</UL>
 <P><STRONG><a name="[14]"></a>SystemInit</STRONG> (Thumb, 64 bytes, Stack size 4 bytes, system_py32f002b.o(.text.SystemInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = SystemInit
 </UL>
@@ -556,14 +576,14 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[23]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uldivmod
 </UL>
-<BR>[Called By]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_send_loop
-<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;device_status_init
-<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;keyboard_loop
-<LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;key_status_set_event
-<LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clock_time_exceed
-<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kb_matrix_scan
-<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaitUs
+<BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaitUs
 <LI><a href="#[46]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WaitMs
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kb_matrix_scan
+<LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;key_status_set_event
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;keyboard_loop
+<LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clock_time_exceed
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_send_loop
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;device_status_init
 </UL>
 
 <P><STRONG><a name="[4d]"></a>clock_time_exceed</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, py32f002b_ll_utils.o(.text.clock_time_exceed))
@@ -571,10 +591,10 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clock_time
 </UL>
-<BR>[Called By]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_send_loop
-<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;keyboard_loop
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kb_matrix_scan
 <LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;key_status_set_event
-<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kb_matrix_scan
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;keyboard_loop
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_send_loop
 </UL>
 
 <P><STRONG><a name="[4e]"></a>dev_iic_config</STRONG> (Thumb, 116 bytes, Stack size 64 bytes, i2c_driver.o(.text.dev_iic_config))
@@ -648,9 +668,9 @@ Global Symbols
 <P><STRONG><a name="[55]"></a>kb_matrix_scan</STRONG> (Thumb, 356 bytes, Stack size 40 bytes, keyboard_driver.o(.text.kb_matrix_scan))
 <BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = kb_matrix_scan &rArr; clock_time_exceed &rArr; clock_time &rArr; __aeabi_uldivmod &rArr; __aeabi_llsr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clock_time_exceed
+<BR>[Calls]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kb_gpio_event_handler
+<LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clock_time_exceed
 <LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clock_time
-<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kb_gpio_event_handler
 </UL>
 <BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;keyboard_loop
 </UL>
@@ -690,7 +710,8 @@ Global Symbols
 <P><STRONG><a name="[5b]"></a>keyboard_loop</STRONG> (Thumb, 128 bytes, Stack size 16 bytes, keyboard_handle.o(.text.keyboard_loop))
 <BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = keyboard_loop &rArr; kb_matrix_scan &rArr; clock_time_exceed &rArr; clock_time &rArr; __aeabi_uldivmod &rArr; __aeabi_llsr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;key_status_set_event
+<BR>[Calls]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kb_matrix_scan
+<LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;key_status_set_event
 <LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;all_key_release_event
 <LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;key_press_timeout_event
 <LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;two_key_long_press_event
@@ -699,7 +720,6 @@ Global Symbols
 <LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;one_key_short_press_event
 <LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clock_time_exceed
 <LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clock_time
-<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;kb_matrix_scan
 </UL>
 <BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main_loop
 </UL>
@@ -732,8 +752,8 @@ Global Symbols
 <P><STRONG><a name="[13]"></a>main</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, main.o(.text.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 328<LI>Call Chain = main &rArr; main_loop &rArr; qmi8658a_loop &rArr; rtt_printf &rArr; SEGGER_RTT_vprintf &rArr; _PrintUnsigned &rArr; _StoreChar &rArr; SEGGER_RTT_Write &rArr; SEGGER_RTT_WriteNoLock &rArr; _WriteBlocking
 </UL>
-<BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main_loop
-<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtt_printf
+<BR>[Calls]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rtt_printf
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main_loop
 <LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;user_init
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
@@ -741,10 +761,10 @@ Global Symbols
 <P><STRONG><a name="[63]"></a>main_loop</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, app.o(.text.main_loop))
 <BR><BR>[Stack]<UL><LI>Max Depth = 328<LI>Call Chain = main_loop &rArr; qmi8658a_loop &rArr; rtt_printf &rArr; SEGGER_RTT_vprintf &rArr; _PrintUnsigned &rArr; _StoreChar &rArr; SEGGER_RTT_Write &rArr; SEGGER_RTT_WriteNoLock &rArr; _WriteBlocking
 </UL>
-<BR>[Calls]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_send_loop
-<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;device_status_loop
-<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;keyboard_loop
+<BR>[Calls]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;keyboard_loop
 <LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qmi8658a_loop
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_send_loop
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;device_status_loop
 </UL>
 <BR>[Called By]<UL><LI><a href="#[13]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -752,8 +772,8 @@ Global Symbols
 <P><STRONG><a name="[5e]"></a>one_key_long_press_event</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, keyboard_handle.o(.text.one_key_long_press_event))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = one_key_long_press_event &rArr; one_key_short_press_event &rArr; send_key_ntc_packet
 </UL>
-<BR>[Calls]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;one_key_short_press_event
-<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;send_key_ntc_packet
+<BR>[Calls]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;send_key_ntc_packet
+<LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;one_key_short_press_event
 </UL>
 <BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;keyboard_loop
 </UL>
@@ -763,8 +783,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;send_key_ntc_packet
 </UL>
-<BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;keyboard_loop
-<LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;one_key_long_press_event
+<BR>[Called By]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;one_key_long_press_event
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;keyboard_loop
 </UL>
 
 <P><STRONG><a name="[86]"></a>protocol_command_encode</STRONG> (Thumb, 220 bytes, Stack size 48 bytes, 433_protocol.o(.text.protocol_command_encode))
@@ -977,8 +997,8 @@ Global Symbols
 <P><STRONG><a name="[66]"></a>rf_send_loop</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, app.o(.text.rf_send_loop))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = rf_send_loop &rArr; clock_time_exceed &rArr; clock_time &rArr; __aeabi_uldivmod &rArr; __aeabi_llsr
 </UL>
-<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_send
-<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_send_is_working
+<BR>[Calls]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_send_is_working
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_send
 <LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clock_time_exceed
 <LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;clock_time
 </UL>
@@ -990,8 +1010,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SEGGER_RTT_vprintf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qmi8658a_loop
-<LI><a href="#[13]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<BR>[Called By]<UL><LI><a href="#[13]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qmi8658a_loop
 </UL>
 
 <P><STRONG><a name="[89]"></a>send_data_check_set</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, function_handle.o(.text.send_data_check_set))
@@ -1001,9 +1021,9 @@ Global Symbols
 <P><STRONG><a name="[67]"></a>send_key_ntc_packet</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, function_handle.o(.text.send_key_ntc_packet))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = send_key_ntc_packet
 </UL>
-<BR>[Calls]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;re_send_enable
+<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;send_data_check_set
 <LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_open
-<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;send_data_check_set
+<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;re_send_enable
 </UL>
 <BR>[Called By]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;two_key_long_press_event
 <LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;one_key_long_press_event
@@ -1028,8 +1048,8 @@ Global Symbols
 <P><STRONG><a name="[5f]"></a>two_key_long_press_event</STRONG> (Thumb, 56 bytes, Stack size 8 bytes, keyboard_handle.o(.text.two_key_long_press_event))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = two_key_long_press_event &rArr; send_key_ntc_packet
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;key_combination_events
-<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;send_key_ntc_packet
+<BR>[Calls]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;send_key_ntc_packet
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;key_combination_events
 </UL>
 <BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;keyboard_loop
 </UL>
@@ -1037,8 +1057,8 @@ Global Symbols
 <P><STRONG><a name="[5d]"></a>two_key_short_press_event</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, keyboard_handle.o(.text.two_key_short_press_event))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = two_key_short_press_event &rArr; key_combination_events
 </UL>
-<BR>[Calls]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_close
-<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;key_combination_events
+<BR>[Calls]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;key_combination_events
+<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_close
 <LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_open
 </UL>
 <BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;keyboard_loop
@@ -1047,15 +1067,15 @@ Global Symbols
 <P><STRONG><a name="[61]"></a>user_init</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, app.o(.text.user_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 172<LI>Call Chain = user_init &rArr; qmi8658a_setup_init &rArr; qst_algo_init &rArr; set_cutoff_frequency &rArr; tanf &rArr; __mathlib_rredf2 &rArr; __aeabi_frsub &rArr; __aeabi_fadd &rArr; _float_epilogue
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;systick_init
+<BR>[Calls]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_driver_init
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;keybroad_init
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;device_pair_id_read
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qmi8658a_setup_init
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_iic_config
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_init
+<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;systick_init
 <LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_RCC_HSI_48MConfig
 <LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;device_status_init
-<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;rf_driver_init
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;led_init
-<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;keybroad_init
-<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dev_iic_config
-<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;qmi8658a_setup_init
-<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;device_pair_id_read
 </UL>
 <BR>[Called By]<UL><LI><a href="#[13]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>

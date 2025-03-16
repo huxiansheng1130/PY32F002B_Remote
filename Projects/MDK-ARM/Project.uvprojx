@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>PY32F002Bx5,USE_FULL_LL_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Inc;..\Src;..\..\Drivers\CMSIS\Include;..\..\Drivers\CMSIS\Device\PY32F0xx\Include;..\Src\flash_module;..\Src\function_module;..\Src\gyro_module;..\Src\i2c_module;..\Src\keyboard_module;..\Src\led_module;..\Src\ntc_module;..\Src\power_module;..\Src\rf_433_module;..\..\Drivers\PY32F002B_LL_BSP\Inc;..\..\Drivers\PY32F002B_LL_Driver\Inc</IncludePath>
+              <IncludePath>..\..\Projects;..\..\Drivers\CMSIS\Include;..\..\Drivers\CMSIS\Device\PY32F0xx\Include;..\..\Drivers\PY32F002B_LL_BSP\Inc;..\..\Drivers\PY32F002B_LL_Driver\Inc;..\flash_module;..\function_module;..\gyro_module;..\i2c_module;..\keyboard_module;..\led_module;..\ntc_module;..\power_module;..\rf_433_module</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -385,14 +385,14 @@
           <GroupName>Common</GroupName>
           <Files>
             <File>
-              <FileName>system_py32f002b.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Src\system_py32f002b.c</FilePath>
-            </File>
-            <File>
               <FileName>startup_py32f002bxx.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\startup_py32f002bxx.s</FilePath>
+            </File>
+            <File>
+              <FileName>system_py32f002b.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Drivers\CMSIS\Device\PY32F002B\system_py32f002b.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -400,84 +400,79 @@
           <GroupName>Application/User</GroupName>
           <Files>
             <File>
+              <FileName>app.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\app.c</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Src\main.c</FilePath>
-            </File>
-            <File>
-              <FileName>py32f002b_it.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Src\py32f002b_it.c</FilePath>
-            </File>
-            <File>
-              <FileName>flash_handle.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Src\flash_module\flash_handle.c</FilePath>
-            </File>
-            <File>
-              <FileName>function_handle.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Src\function_module\function_handle.c</FilePath>
-            </File>
-            <File>
-              <FileName>qmi8658a_driver.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Src\gyro_module\qmi8658a_driver.c</FilePath>
-            </File>
-            <File>
-              <FileName>i2c_driver.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Src\i2c_module\i2c_driver.c</FilePath>
-            </File>
-            <File>
-              <FileName>keyboard_driver.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Src\keyboard_module\keyboard_driver.c</FilePath>
-            </File>
-            <File>
-              <FileName>keyboard_handle.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Src\keyboard_module\keyboard_handle.c</FilePath>
-            </File>
-            <File>
-              <FileName>led_driver.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Src\led_module\led_driver.c</FilePath>
-            </File>
-            <File>
-              <FileName>ntc_driver.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Src\ntc_module\ntc_driver.c</FilePath>
-            </File>
-            <File>
-              <FileName>ntc_handle.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Src\ntc_module\ntc_handle.c</FilePath>
-            </File>
-            <File>
-              <FileName>power_driver.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Src\power_module\power_driver.c</FilePath>
+              <FilePath>..\main.c</FilePath>
             </File>
             <File>
               <FileName>433_protocol.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Src\rf_433_module\433_protocol.c</FilePath>
+              <FilePath>..\rf_433_module\433_protocol.c</FilePath>
             </File>
             <File>
               <FileName>433_send_driver.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Src\rf_433_module\433_send_driver.c</FilePath>
+              <FilePath>..\rf_433_module\433_send_driver.c</FilePath>
             </File>
             <File>
-              <FileName>app.c</FileName>
+              <FileName>power_driver.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Src\app.c</FilePath>
+              <FilePath>..\power_module\power_driver.c</FilePath>
             </File>
             <File>
-              <FileName>imualgo_axis9.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Src\gyro_module\imualgo_axis9.lib</FilePath>
+              <FileName>ntc_driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\ntc_module\ntc_driver.c</FilePath>
+            </File>
+            <File>
+              <FileName>ntc_handle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\ntc_module\ntc_handle.c</FilePath>
+            </File>
+            <File>
+              <FileName>led_driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\led_module\led_driver.c</FilePath>
+            </File>
+            <File>
+              <FileName>keyboard_handle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\keyboard_module\keyboard_handle.c</FilePath>
+            </File>
+            <File>
+              <FileName>keyboard_driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\keyboard_module\keyboard_driver.c</FilePath>
+            </File>
+            <File>
+              <FileName>i2c_driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\i2c_module\i2c_driver.c</FilePath>
+            </File>
+            <File>
+              <FileName>qmi8658a_handle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\gyro_module\qmi8658a_handle.c</FilePath>
+            </File>
+            <File>
+              <FileName>qmi8658a_driver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\gyro_module\qmi8658a_driver.c</FilePath>
+            </File>
+            <File>
+              <FileName>function_handle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\function_module\function_handle.c</FilePath>
+            </File>
+            <File>
+              <FileName>flash_handle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\flash_module\flash_handle.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -553,6 +548,11 @@
               <FileName>py32f002b_ll_utils.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Drivers\PY32F002B_LL_Driver\Src\py32f002b_ll_utils.c</FilePath>
+            </File>
+            <File>
+              <FileName>imualgo_axis9.lib</FileName>
+              <FileType>4</FileType>
+              <FilePath>..\gyro_module\imualgo_axis9.lib</FilePath>
             </File>
           </Files>
         </Group>

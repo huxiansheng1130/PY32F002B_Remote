@@ -1,7 +1,8 @@
 ./objects/py32f002b_bsp_printf.o: \
   ..\..\Drivers\PY32F002B_LL_BSP\Src\py32f002b_bsp_printf.c \
   E:\1.software\57.puya_keil\ARM\ARMCLANG\Bin\..\include\errno.h \
-  ..\..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h ..\Src\app.h \
+  ..\..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h \
+  ..\..\Projects\app.h \
   ..\..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h \
   ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h \
   ..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h \

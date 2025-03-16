@@ -17,7 +17,7 @@
  *============================================================================*/
 #include "main.h"
 #include "app.h"
-#include "../keyboard_module/keyboard_config.h"
+#include "keyboard_config.h"
 
 #if (UI_KEYBOARD_ENABLE)
 /*============================================================================*

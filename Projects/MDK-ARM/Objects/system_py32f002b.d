@@ -1,4 +1,5 @@
-./objects/system_py32f002b.o: ..\Src\system_py32f002b.c \
+./objects/system_py32f002b.o: \
+  ..\..\Drivers\CMSIS\Device\PY32F002B\system_py32f002b.c \
   ..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h \
   ..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h \
   ..\..\Drivers\CMSIS\Include\core_cm0plus.h \

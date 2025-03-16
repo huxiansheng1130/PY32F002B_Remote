@@ -23,24 +23,20 @@
   ..\..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h \
   E:\1.software\57.puya_keil\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   E:\1.software\57.puya_keil\ARM\ARMCLANG\Bin\..\include\stdarg.h \
-  ..\Src\flash_module\..\keyboard_module\keyboard_handle.h ..\Inc\main.h \
+  ..\Src\keyboard_module\keyboard_handle.h ..\Inc\main.h \
   ..\Src\keyboard_module\keyboard_driver.h \
-  ..\Src\keyboard_module\..\keyboard_module\keyboard_config.h \
-  ..\Src\flash_module\..\keyboard_module\keyboard_driver.h \
-  ..\Src\flash_module\..\function_module\function_handle.h \
-  ..\Src\flash_module\..\flash_module\flash_handle.h \
+  ..\Src\keyboard_module\keyboard_config.h \
   ..\Src\function_module\function_handle.h \
-  ..\Src\flash_module\..\power_module\power_driver.h \
-  ..\Src\flash_module\..\ntc_module\ntc_driver.h \
+  ..\Src\flash_module\flash_handle.h ..\Src\power_module\power_driver.h \
+  ..\Src\ntc_module\ntc_driver.h \
   ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h \
   ..\Src\ntc_module\ntc_handle.h \
   ..\Src\ntc_module\..\ntc_module\ntc_driver.h \
-  ..\Src\flash_module\..\led_module\led_driver.h \
-  ..\Src\flash_module\..\gyro_module\qmi8658a_driver.h \
+  ..\Src\led_module\led_driver.h ..\Src\gyro_module\qmi8658a_driver.h \
   ..\Src\gyro_module\..\i2c_module\i2c_driver.h \
   ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h \
   ..\Src\gyro_module\..\gyro_module\imualgo_axis9.h \
   E:\1.software\57.puya_keil\ARM\ARMCLANG\Bin\..\include\errno.h \
-  ..\Src\flash_module\..\rf_433_module\433_send_driver.h \
+  ..\Src\rf_433_module\433_send_driver.h \
   E:\1.software\57.puya_keil\ARM\ARMCLANG\Bin\..\include\stdbool.h \
   ..\Src\py32f002b_it.h

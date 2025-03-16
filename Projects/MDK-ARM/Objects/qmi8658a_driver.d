@@ -1,5 +1,5 @@
-./objects/qmi8658a_driver.o: ..\Src\gyro_module\qmi8658a_driver.c \
-  ..\Src\gyro_module\..\gyro_module\qmi8658a_driver.h ..\Inc\main.h \
+./objects/qmi8658a_driver.o: ..\gyro_module\qmi8658a_driver.c \
+  ..\gyro_module\..\gyro_module\qmi8658a_driver.h ..\..\Projects\main.h \
   ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_rcc.h \
   ..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f0xx.h \
   ..\..\Drivers\CMSIS\Device\PY32F0xx\Include\py32f002bx5.h \
@@ -15,15 +15,26 @@
   ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_utils.h \
   ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_pwr.h \
   ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_gpio.h \
-  ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h ..\Src\app.h \
+  ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h \
+  ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_exti.h \
   ..\..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_clock.h \
   ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_usart.h \
-  ..\Src\gyro_module\..\i2c_module\i2c_driver.h \
-  ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h \
-  ..\Src\gyro_module\..\gyro_module\imualgo_axis9.h \
-  E:\1.software\57.puya_keil\ARM\ARMCLANG\Bin\..\include\errno.h \
-  ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_tim.h \
-  ..\..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h \
+  ..\..\Drivers\PY32F002B_LL_BSP\Inc\py32f002b_bsp_printf.h \
+  ..\..\Projects\app.h ..\..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT.h \
   ..\..\Drivers\PY32F002B_LL_BSP\Inc\SEGGER_RTT_Conf.h \
   E:\1.software\57.puya_keil\ARM\ARMCLANG\Bin\..\include\stdlib.h \
-  E:\1.software\57.puya_keil\ARM\ARMCLANG\Bin\..\include\stdarg.h
+  E:\1.software\57.puya_keil\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  ..\keyboard_module\keyboard_handle.h \
+  ..\keyboard_module\keyboard_driver.h \
+  ..\keyboard_module\keyboard_config.h \
+  ..\function_module\function_handle.h ..\flash_module\flash_handle.h \
+  ..\power_module\power_driver.h ..\ntc_module\ntc_driver.h \
+  ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_adc.h \
+  ..\..\Projects\ntc_module\ntc_handle.h \
+  ..\ntc_module\..\ntc_module\ntc_driver.h ..\led_module\led_driver.h \
+  ..\gyro_module\qmi8658a_driver.h ..\rf_433_module\433_send_driver.h \
+  E:\1.software\57.puya_keil\ARM\ARMCLANG\Bin\..\include\stdbool.h \
+  ..\gyro_module\..\i2c_module\i2c_driver.h \
+  ..\..\Drivers\PY32F002B_LL_Driver\Inc\py32f002b_ll_i2c.h \
+  ..\gyro_module\..\gyro_module\imualgo_axis9.h \
+  E:\1.software\57.puya_keil\ARM\ARMCLANG\Bin\..\include\errno.h

@@ -12,7 +12,7 @@
  *                              Header Files
  *============================================================================*/
 #include "../gyro_module/qmi8658a_driver.h"
-#include "SEGGER_RTT.h"
+
 #if (GYROSCOPE_ENABLE)
 /*============================================================================*
  *                              Macro Definitions

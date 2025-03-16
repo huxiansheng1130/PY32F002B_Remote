@@ -1,7 +1,7 @@
 /*********************************************************************************************************
  *               Copyright(c) 2024, Seneasy Corporation. All rights reserved.
  **********************************************************************************************************
- * @file     ntc_driver.h
+ * @file     qmi8658a_driver.h
  * @brief
  * @details
  * @author   huzhuohuan
@@ -21,14 +21,13 @@
 #include "py32f002b_ll_tim.h"
 #include "i2c_driver.h"
 #include "imualgo_axis9.h"
+#include "qmi8658a_handle.h"
 
 #if (GYROSCOPE_ENABLE)
 /*============================================================================*
  *                        Export Global Variables
  *============================================================================*/
-#define QMI8658A_ADDRESS                        (0xD6)
-/* QMI8658A Register Addresses */
-/* QMI8658A Register Addresses */
+#define QMI8658A_ADDRESS                        0xD6
 #define QMI8658A_WHO_AM_I                       0x00
 #define QMI8658A_REVISION_ID                    0x01
 #define QMI8658A_CTRL1                          0x02
@@ -41,9 +40,10 @@
 #define QMI8658A_FIFO_WTM_TH                    0x13
 #define QMI8658A_FIFO_CTRL                      0x14
 #define QMI8658A_RESET                          0x60
-
-/* QMI8658A Register Default Values */
 #define QMI8658A_WHO_AM_I_VAL                   0x05
+
+extern _Bool task_run;
+extern uint8_t show_flag;
 
 /*============================================================================*
  *                          Functions
@@ -53,8 +53,8 @@
  *                      Extern Functions
  *============================================================================*/
 extern void qmi8658a_setup_init(void);
-extern _Bool qmi8658a_init(void);
-extern void qmi8658a_loop(void);
+extern void qmi8658a_write_byte(uint8_t reg, uint8_t value);
 extern uint8_t qmi8658a_read_byte(uint8_t reg);
+
 #endif
 #endif

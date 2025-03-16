@@ -55,6 +55,7 @@ extern "C" {
 #include "ntc_driver.h"
 #include "led_driver.h"
 #include "qmi8658a_driver.h"
+#include "qmi8658a_handle.h"
 #include "433_send_driver.h"
 
 

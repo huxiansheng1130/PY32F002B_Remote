@@ -12,6 +12,7 @@
                 "${workspaceFolder}/Drivers/PY32F002B_LL_Driver/Inc",
                 "${workspaceFolder}/Drivers/PY32F002B_LL_Driver/Src",
                 "${workspaceFolder}/Projects",
+                "${workspaceFolder}/Projects/drivers/*_module",
                 "${workspaceFolder}/Projects/*_module/**"
             ],
             "defines": [

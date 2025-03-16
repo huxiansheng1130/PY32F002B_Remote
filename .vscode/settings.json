@@ -61,6 +61,7 @@
         "segger_rtt.h": "c",
         "qmi8658a_handle.h": "c",
         "function_handle.h": "c",
-        "ntc_handle.h": "c"
+        "ntc_handle.h": "c",
+        "flash_handle.h": "c"
     }
 }

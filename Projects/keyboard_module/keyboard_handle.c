@@ -11,7 +11,7 @@
 /*============================================================================*
  *                              Header Files
  *============================================================================*/
-#include "keyboard_module/keyboard_handle.h"
+#include "keyboard_handle.h"
 #include "led_driver.h"
 #include "function_handle.h"
 
